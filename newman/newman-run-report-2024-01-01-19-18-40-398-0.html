@@ -28,21 +28,21 @@
     <div class="row">
         <div class="col-md-3">Collection</div><div class="col-md-9">REQRES</div>
         
-        <div class="col-md-3">Time</div><div class="col-md-9">Sun Dec 31 2023 12:37:40 GMT+0100 (West Africa Standard Time)</div>
+        <div class="col-md-3">Time</div><div class="col-md-9">Mon Jan 01 2024 20:18:40 GMT+0100 (West Africa Standard Time)</div>
         <div class="col-md-3">Exported with</div><div class="col-md-9">Newman v6.0.0</div>
         <div class="col-md-12">&nbsp;</div>
         <div class="col-md-4">&nbsp;</div><div class="col-md-4"><strong>Total</strong></div><div class="col-md-4"><strong>Failed</strong></div>
 
           <div class="col-md-4">Iterations</div><div class="col-md-4">1</div><div class="col-md-4">0</div>
-          <div class="col-md-4">Requests</div><div class="col-md-4">30</div><div class="col-md-4">0</div>
+          <div class="col-md-4">Requests</div><div class="col-md-4">10</div><div class="col-md-4">0</div>
           <div class="col-md-4">Prerequest Scripts</div><div class="col-md-4">0</div><div class="col-md-4">0</div>
-          <div class="col-md-4">Test Scripts</div><div class="col-md-4">30</div><div class="col-md-4">0</div>
+          <div class="col-md-4">Test Scripts</div><div class="col-md-4">10</div><div class="col-md-4">0</div>
           <div class="col-md-4">Assertions</div><div class="col-md-4">30</div><div class="col-md-4">0</div>
 
         <div class="col-md-12">&nbsp;</div>
-        <div class="col-md-6">Total run duration</div><div class="col-md-6">17.4s</div>
-        <div class="col-md-6">Total data received</div><div class="col-md-6">84.18KB (approx)</div>
-        <div class="col-md-6">Average response time</div><div class="col-md-6">489ms</div>
+        <div class="col-md-6">Total run duration</div><div class="col-md-6">7.8s</div>
+        <div class="col-md-6">Total data received</div><div class="col-md-6">3.19KB (approx)</div>
+        <div class="col-md-6">Average response time</div><div class="col-md-6">678ms</div>
 
         <div class="col-md-12">&nbsp;</div>
         <div class="col-md-3"><strong>Total Failures</strong></div><div class="col-md-6"><strong>0</strong></div>
@@ -68,28 +68,21 @@
         
         ### Critical Test Scenarios:
         
-        1. **Positive Test Scenario**
+        1. Positive Test Scenario
             
         
         **Response**
         
-        The response to the request returns a status code of 200, indicating a successful retrieval of user data. The response body contains the following fields:
-        
-        - &#x60;page&#x60; (number): The current page number
-        - &#x60;per_page&#x60; (number): The number of users per page
-        - &#x60;total&#x60; (number): The total number of users
-        - &#x60;total_pages&#x60; (number): The total number of pages
-        - &#x60;data&#x60; (array): An array of user objects, each containing the &#x27;id&#x27;, &#x27;email&#x27;, &#x27;first_name&#x27;, &#x27;last_name&#x27;, and &#x27;avatar&#x27; fields
-        - &#x60;support&#x60; (object): Contains &#x27;url&#x27; and &#x27;text&#x27; fields providing support information</div>
+        The response to the request returns a status code of 200, indicating a successful retrieval of user data.</div>
                                         <div class="col-md-12">&nbsp;</div>
         
                                     <div class="col-md-4">Method</div><div class="col-md-8">GET</div>
-                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="https://reqres.in/api/users?page&#x3D;2" target="_blank">https://reqres.in/api/users?page&#x3D;2</a></div>
+                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="https://reqres.in/api/users?page&#x3D;2test??#$" target="_blank">https://reqres.in/api/users?page&#x3D;2test??#$</a></div>
         
                                 <div class="col-md-12">&nbsp;</div>
         
                                 <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">805ms</div><br/>
+                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">1136ms</div><br/>
                                 <div class="col-md-4">Mean size per request</div><div class="col-md-8">1.01KB</div><br/>
         
                                 <div class="col-md-12">&nbsp;</div>
@@ -105,67 +98,9 @@
                                     <div class="col-md-8">
                                         <table class="table table-responsive table-condensed">
                                             <thead><tr><th>Name</th><th>Pass count</th><th>Fail count</th></tr></thead>
-                                            <tbody><tr><td>Status code is 200 OK</td><td>1</td><td>0</td></tr><tr><td>Email in the &#x27;data&#x27; array is in a valid format</td><td>1</td><td>0</td></tr><tr><td>Support object has the correct structure</td><td>1</td><td>0</td></tr></tbody>
+                                            <tbody><tr><td>Verify status code is 200 OK</td><td>1</td><td>0</td></tr><tr><td>Verify Email in the &#x27;data&#x27; array is in a valid format</td><td>1</td><td>0</td></tr><tr><td>Verify object has the correct structure</td><td>1</td><td>0</td></tr></tbody>
                                         </table>
                                     </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel-group" id="collapse-request-235d63ed-f0cd-4974-bbcb-22820d2e3a11" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-235d63ed-f0cd-4974-bbcb-22820d2e3a11">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-235d63ed-f0cd-4974-bbcb-22820d2e3a11" aria-controls="collapseOne">listusers_002</a></h4>
-                        </div>
-        
-                        <div id="requestData-235d63ed-f0cd-4974-bbcb-22820d2e3a11" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-235d63ed-f0cd-4974-bbcb-22820d2e3a11">
-                            <div class="panel-body">
-        
-                                    <div class="col-md-4">Method</div><div class="col-md-8">GET</div>
-                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="https://reqres.in/api/users?page&#x3D;2test??#$" target="_blank">https://reqres.in/api/users?page&#x3D;2test??#$</a></div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">266ms</div><br/>
-                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">138B</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">0</div>
-                                <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">400</div><br/>
-        
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel-group" id="collapse-request-fa035493-f29c-4f42-afd9-a220f08b053a" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-fa035493-f29c-4f42-afd9-a220f08b053a">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-fa035493-f29c-4f42-afd9-a220f08b053a" aria-controls="collapseOne">listusers_003</a></h4>
-                        </div>
-        
-                        <div id="requestData-fa035493-f29c-4f42-afd9-a220f08b053a" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-fa035493-f29c-4f42-afd9-a220f08b053a">
-                            <div class="panel-body">
-        
-                                    <div class="col-md-4">Method</div><div class="col-md-8">GET</div>
-                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="http://reqres.in/API/users?page&#x3D;00002." target="_blank">http://reqres.in/API/users?page&#x3D;00002.</a></div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">639ms</div><br/>
-                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">1.01KB</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">0</div>
-                                <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">200</div><br/>
-        
                             </div>
                         </div>
                     </div>
@@ -185,74 +120,25 @@
                                 <div class="col-md-12">&nbsp;</div>
         
                                 <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">206ms</div><br/>
+                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">230ms</div><br/>
                                 <div class="col-md-4">Mean size per request</div><div class="col-md-8">705B</div><br/>
         
                                 <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">0</div>
+                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">3</div>
                                 <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
         
                                 <div class="col-md-12">&nbsp;</div>
                                 <br/><div class="col-md-4">Status code</div><div class="col-md-8">200</div><br/>
         
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel-group" id="collapse-request-b35f85be-c848-4b8d-a67e-20881bb48f9d" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-b35f85be-c848-4b8d-a67e-20881bb48f9d">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-b35f85be-c848-4b8d-a67e-20881bb48f9d" aria-controls="collapseOne">listunknown_002</a></h4>
-                        </div>
+                                    <div class="col-md-12">&nbsp;</div>
+                                    <div class="col-md-4">Tests</div>
         
-                        <div id="requestData-b35f85be-c848-4b8d-a67e-20881bb48f9d" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-b35f85be-c848-4b8d-a67e-20881bb48f9d">
-                            <div class="panel-body">
-        
-                                    <div class="col-md-4">Method</div><div class="col-md-8">GET</div>
-                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="https://reqres.com/api/unknown" target="_blank">https://reqres.com/api/unknown</a></div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">2.1s</div><br/>
-                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">38.68KB</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">0</div>
-                                <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">404</div><br/>
-        
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel-group" id="collapse-request-f720e929-8b68-4725-aac2-d5208d94c7d6" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-f720e929-8b68-4725-aac2-d5208d94c7d6">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-f720e929-8b68-4725-aac2-d5208d94c7d6" aria-controls="collapseOne">listunknown_003</a></h4>
-                        </div>
-        
-                        <div id="requestData-f720e929-8b68-4725-aac2-d5208d94c7d6" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-f720e929-8b68-4725-aac2-d5208d94c7d6">
-                            <div class="panel-body">
-        
-                                    <div class="col-md-4">Method</div><div class="col-md-8">GET</div>
-                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="https://reqres.com/api/unknown/page//3//" target="_blank">https://reqres.com/api/unknown/page//3//</a></div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">1664ms</div><br/>
-                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">38.68KB</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">0</div>
-                                <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">404</div><br/>
-        
+                                    <div class="col-md-8">
+                                        <table class="table table-responsive table-condensed">
+                                            <thead><tr><th>Name</th><th>Pass count</th><th>Fail count</th></tr></thead>
+                                            <tbody><tr><td>Verify the response is an object that includes page, per_page, total, total_pages, data, and support properties</td><td>1</td><td>0</td></tr><tr><td>Verify each element in the data array has id, name, year, color, and pantone_value properties</td><td>1</td><td>0</td></tr><tr><td>Verify Id in the data array is a non-negative integer</td><td>1</td><td>0</td></tr></tbody>
+                                        </table>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -276,7 +162,7 @@
                                 <div class="col-md-12">&nbsp;</div>
         
                                 <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">404ms</div><br/>
+                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">715ms</div><br/>
                                 <div class="col-md-4">Mean size per request</div><div class="col-md-8">232B</div><br/>
         
                                 <div class="col-md-12">&nbsp;</div>
@@ -292,67 +178,9 @@
                                     <div class="col-md-8">
                                         <table class="table table-responsive table-condensed">
                                             <thead><tr><th>Name</th><th>Pass count</th><th>Fail count</th></tr></thead>
-                                            <tbody><tr><td>Response contains object with expected details page, per_page, total, total_pages, data, and support properties</td><td>1</td><td>0</td></tr><tr><td>Response Content-Type is application/json</td><td>1</td><td>0</td></tr><tr><td>Data object contains expected properties</td><td>1</td><td>0</td></tr></tbody>
+                                            <tbody><tr><td>Verify that the response contains object with expected details page, per_page, total, total_pages, data, and support properties</td><td>1</td><td>0</td></tr><tr><td>Verify that response Content-Type is application/json</td><td>1</td><td>0</td></tr><tr><td>Verify the object contains all the expected properties</td><td>1</td><td>0</td></tr></tbody>
                                         </table>
                                     </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel-group" id="collapse-request-6e1a22a0-91c7-4243-a04f-ae8de8116e71" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-6e1a22a0-91c7-4243-a04f-ae8de8116e71">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-6e1a22a0-91c7-4243-a04f-ae8de8116e71" aria-controls="collapseOne">single list_002</a></h4>
-                        </div>
-        
-                        <div id="requestData-6e1a22a0-91c7-4243-a04f-ae8de8116e71" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-6e1a22a0-91c7-4243-a04f-ae8de8116e71">
-                            <div class="panel-body">
-        
-                                    <div class="col-md-4">Method</div><div class="col-md-8">GET</div>
-                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="http://reqres.in/api/unknown//1" target="_blank">http://reqres.in/api/unknown//1</a></div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">414ms</div><br/>
-                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">2B</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">0</div>
-                                <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">404</div><br/>
-        
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel-group" id="collapse-request-577597ae-673e-4ca9-b116-f8a2a135ca11" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-577597ae-673e-4ca9-b116-f8a2a135ca11">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-577597ae-673e-4ca9-b116-f8a2a135ca11" aria-controls="collapseOne">single list_003</a></h4>
-                        </div>
-        
-                        <div id="requestData-577597ae-673e-4ca9-b116-f8a2a135ca11" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-577597ae-673e-4ca9-b116-f8a2a135ca11">
-                            <div class="panel-body">
-        
-                                    <div class="col-md-4">Method</div><div class="col-md-8">GET</div>
-                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="https://reqres.in/api/users/7&#x3D;testpayload" target="_blank">https://reqres.in/api/users/7&#x3D;testpayload</a></div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">257ms</div><br/>
-                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">2B</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">0</div>
-                                <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">404</div><br/>
-        
                             </div>
                         </div>
                     </div>
@@ -378,11 +206,11 @@
                                 <div class="col-md-12">&nbsp;</div>
         
                                 <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">233ms</div><br/>
+                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">221ms</div><br/>
                                 <div class="col-md-4">Mean size per request</div><div class="col-md-8">0B</div><br/>
         
                                 <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">2</div>
+                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">3</div>
                                 <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
         
                                 <div class="col-md-12">&nbsp;</div>
@@ -394,67 +222,9 @@
                                     <div class="col-md-8">
                                         <table class="table table-responsive table-condensed">
                                             <thead><tr><th>Name</th><th>Pass count</th><th>Fail count</th></tr></thead>
-                                            <tbody><tr><td>Status code is 204 No content</td><td>1</td><td>0</td></tr><tr><td>Response time is less than 500ms</td><td>1</td><td>0</td></tr></tbody>
+                                            <tbody><tr><td>Verify that the response body is null or empty</td><td>1</td><td>0</td></tr><tr><td>Verify that the user with ID 2 is deleted from the system</td><td>1</td><td>0</td></tr><tr><td>Verify that the response does not contain sensitive information</td><td>1</td><td>0</td></tr></tbody>
                                         </table>
                                     </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel-group" id="collapse-request-9878a2c5-9d2c-4229-8f95-7542b1e092fb" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-9878a2c5-9d2c-4229-8f95-7542b1e092fb">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-9878a2c5-9d2c-4229-8f95-7542b1e092fb" aria-controls="collapseOne">delete_002</a></h4>
-                        </div>
-        
-                        <div id="requestData-9878a2c5-9d2c-4229-8f95-7542b1e092fb" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-9878a2c5-9d2c-4229-8f95-7542b1e092fb">
-                            <div class="panel-body">
-        
-                                    <div class="col-md-4">Method</div><div class="col-md-8">DELETE</div>
-                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="https://reqres.in/api/users/postmancollection++//" target="_blank">https://reqres.in/api/users/postmancollection++//</a></div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">206ms</div><br/>
-                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">0B</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">0</div>
-                                <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">204</div><br/>
-        
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel-group" id="collapse-request-cf0fd0d8-454e-49cd-b221-c072524c50c2" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-cf0fd0d8-454e-49cd-b221-c072524c50c2">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-cf0fd0d8-454e-49cd-b221-c072524c50c2" aria-controls="collapseOne">delete_003</a></h4>
-                        </div>
-        
-                        <div id="requestData-cf0fd0d8-454e-49cd-b221-c072524c50c2" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-cf0fd0d8-454e-49cd-b221-c072524c50c2">
-                            <div class="panel-body">
-        
-                                    <div class="col-md-4">Method</div><div class="col-md-8">DELETE</div>
-                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="https://reqres.in/API/USE" target="_blank">https://reqres.in/API/USE</a></div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">213ms</div><br/>
-                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">0B</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">0</div>
-                                <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">204</div><br/>
-        
                             </div>
                         </div>
                     </div>
@@ -474,7 +244,7 @@
                                 <div class="col-md-12">&nbsp;</div>
         
                                 <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">215ms</div><br/>
+                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">216ms</div><br/>
                                 <div class="col-md-4">Mean size per request</div><div class="col-md-8">83B</div><br/>
         
                                 <div class="col-md-12">&nbsp;</div>
@@ -490,67 +260,9 @@
                                     <div class="col-md-8">
                                         <table class="table table-responsive table-condensed">
                                             <thead><tr><th>Name</th><th>Pass count</th><th>Fail count</th></tr></thead>
-                                            <tbody><tr><td>Status code is 201 created</td><td>1</td><td>0</td></tr><tr><td>Response time is less than 500ms</td><td>1</td><td>0</td></tr><tr><td>User name should be: &quot;string&quot;</td><td>1</td><td>0</td></tr></tbody>
+                                            <tbody><tr><td>Verify status code is 201 created</td><td>1</td><td>0</td></tr><tr><td>Verify response time is less than 500ms</td><td>1</td><td>0</td></tr><tr><td>Verify user name should be: &quot;string&quot;</td><td>1</td><td>0</td></tr></tbody>
                                         </table>
                                     </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel-group" id="collapse-request-d63bae04-aef0-4786-b916-a49c11792eed" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-d63bae04-aef0-4786-b916-a49c11792eed">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-d63bae04-aef0-4786-b916-a49c11792eed" aria-controls="collapseOne">CreateUser_002</a></h4>
-                        </div>
-        
-                        <div id="requestData-d63bae04-aef0-4786-b916-a49c11792eed" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-d63bae04-aef0-4786-b916-a49c11792eed">
-                            <div class="panel-body">
-        
-                                    <div class="col-md-4">Method</div><div class="col-md-8">POST</div>
-                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="https://reqres.in/API/users" target="_blank">https://reqres.in/API/users</a></div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">201ms</div><br/>
-                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">77B</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">0</div>
-                                <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">201</div><br/>
-        
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel-group" id="collapse-request-a08aca90-e61e-4443-8f6e-35eaf238f24a" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-a08aca90-e61e-4443-8f6e-35eaf238f24a">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-a08aca90-e61e-4443-8f6e-35eaf238f24a" aria-controls="collapseOne">CreateUser_003</a></h4>
-                        </div>
-        
-                        <div id="requestData-a08aca90-e61e-4443-8f6e-35eaf238f24a" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-a08aca90-e61e-4443-8f6e-35eaf238f24a">
-                            <div class="panel-body">
-        
-                                    <div class="col-md-4">Method</div><div class="col-md-8">POST</div>
-                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="https://reqres.in/API/users" target="_blank">https://reqres.in/API/users</a></div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">225ms</div><br/>
-                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">51B</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">0</div>
-                                <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">201</div><br/>
-        
                             </div>
                         </div>
                     </div>
@@ -570,7 +282,7 @@
                                 <div class="col-md-12">&nbsp;</div>
         
                                 <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">202ms</div><br/>
+                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">223ms</div><br/>
                                 <div class="col-md-4">Mean size per request</div><div class="col-md-8">72B</div><br/>
         
                                 <div class="col-md-12">&nbsp;</div>
@@ -586,74 +298,7 @@
                                     <div class="col-md-8">
                                         <table class="table table-responsive table-condensed">
                                             <thead><tr><th>Name</th><th>Pass count</th><th>Fail count</th></tr></thead>
-                                            <tbody><tr><td>Status code is 200</td><td>1</td><td>0</td></tr><tr><td>Response time is less than 2000ms</td><td>1</td><td>0</td></tr><tr><td>Response contains expected objects</td><td>1</td><td>0</td></tr></tbody>
-                                        </table>
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel-group" id="collapse-request-8fe1e4fb-dd39-4633-a1fa-825165a44727" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-8fe1e4fb-dd39-4633-a1fa-825165a44727">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-8fe1e4fb-dd39-4633-a1fa-825165a44727" aria-controls="collapseOne">UpdateUser_002</a></h4>
-                        </div>
-        
-                        <div id="requestData-8fe1e4fb-dd39-4633-a1fa-825165a44727" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-8fe1e4fb-dd39-4633-a1fa-825165a44727">
-                            <div class="panel-body">
-        
-                                    <div class="col-md-4">Method</div><div class="col-md-8">PUT</div>
-                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="https://reqres.in/api/users/2" target="_blank">https://reqres.in/api/users/2</a></div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">239ms</div><br/>
-                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">72B</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">0</div>
-                                <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">200</div><br/>
-        
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel-group" id="collapse-request-9aaf918a-83e8-4e32-b0c0-597dc3ca8e09" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-9aaf918a-83e8-4e32-b0c0-597dc3ca8e09">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-9aaf918a-83e8-4e32-b0c0-597dc3ca8e09" aria-controls="collapseOne">UpdateUser_003</a></h4>
-                        </div>
-        
-                        <div id="requestData-9aaf918a-83e8-4e32-b0c0-597dc3ca8e09" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-9aaf918a-83e8-4e32-b0c0-597dc3ca8e09">
-                            <div class="panel-body">
-        
-                                    <div class="col-md-4">Method</div><div class="col-md-8">PUT</div>
-                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="https://reqres.in/api/users/2" target="_blank">https://reqres.in/api/users/2</a></div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">244ms</div><br/>
-                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">72B</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">3</div>
-                                <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">200</div><br/>
-        
-                                    <div class="col-md-12">&nbsp;</div>
-                                    <div class="col-md-4">Tests</div>
-        
-                                    <div class="col-md-8">
-                                        <table class="table table-responsive table-condensed">
-                                            <thead><tr><th>Name</th><th>Pass count</th><th>Fail count</th></tr></thead>
-                                            <tbody><tr><td>Status code is 200</td><td>1</td><td>0</td></tr><tr><td>Response time is less than 2000ms</td><td>1</td><td>0</td></tr><tr><td>Response contains expected objects</td><td>1</td><td>0</td></tr></tbody>
+                                            <tbody><tr><td>Response contains expected objects</td><td>1</td><td>0</td></tr><tr><td>Verify that name is a not an empty string</td><td>1</td><td>0</td></tr><tr><td>Job is a non-empty string</td><td>1</td><td>0</td></tr></tbody>
                                         </table>
                                     </div>
                             </div>
@@ -675,7 +320,7 @@
                                 <div class="col-md-12">&nbsp;</div>
         
                                 <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">223ms</div><br/>
+                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">320ms</div><br/>
                                 <div class="col-md-4">Mean size per request</div><div class="col-md-8">80B</div><br/>
         
                                 <div class="col-md-12">&nbsp;</div>
@@ -691,67 +336,9 @@
                                     <div class="col-md-8">
                                         <table class="table table-responsive table-condensed">
                                             <thead><tr><th>Name</th><th>Pass count</th><th>Fail count</th></tr></thead>
-                                            <tbody><tr><td>Status code is 200</td><td>1</td><td>0</td></tr><tr><td>Response time is less than 2000ms</td><td>1</td><td>0</td></tr><tr><td>Response contains expected objects</td><td>1</td><td>0</td></tr></tbody>
+                                            <tbody><tr><td>Verify that response contains expected objects</td><td>1</td><td>0</td></tr><tr><td>Verify that name is a not an empty string</td><td>1</td><td>0</td></tr><tr><td>Verify that Job is not an empty string</td><td>1</td><td>0</td></tr></tbody>
                                         </table>
                                     </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel-group" id="collapse-request-aea8c02a-2ef5-45ab-9d7c-b2a2b999f666" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-aea8c02a-2ef5-45ab-9d7c-b2a2b999f666">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-aea8c02a-2ef5-45ab-9d7c-b2a2b999f666" aria-controls="collapseOne">UpdateUsername_002</a></h4>
-                        </div>
-        
-                        <div id="requestData-aea8c02a-2ef5-45ab-9d7c-b2a2b999f666" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-aea8c02a-2ef5-45ab-9d7c-b2a2b999f666">
-                            <div class="panel-body">
-        
-                                    <div class="col-md-4">Method</div><div class="col-md-8">PATCH</div>
-                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="https://reqres.in/api/users/2" target="_blank">https://reqres.in/api/users/2</a></div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">207ms</div><br/>
-                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">80B</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">0</div>
-                                <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">200</div><br/>
-        
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel-group" id="collapse-request-a3ce197c-4fd4-4618-98bc-3ad704b6dd91" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-a3ce197c-4fd4-4618-98bc-3ad704b6dd91">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-a3ce197c-4fd4-4618-98bc-3ad704b6dd91" aria-controls="collapseOne">UpdateUsername_003</a></h4>
-                        </div>
-        
-                        <div id="requestData-a3ce197c-4fd4-4618-98bc-3ad704b6dd91" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-a3ce197c-4fd4-4618-98bc-3ad704b6dd91">
-                            <div class="panel-body">
-        
-                                    <div class="col-md-4">Method</div><div class="col-md-8">PATCH</div>
-                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="https://reqres.in/api/users/2" target="_blank">https://reqres.in/api/users/2</a></div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">211ms</div><br/>
-                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">80B</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">0</div>
-                                <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">200</div><br/>
-        
                             </div>
                         </div>
                     </div>
@@ -771,11 +358,11 @@
                                 <div class="col-md-12">&nbsp;</div>
         
                                 <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">402ms</div><br/>
+                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">210ms</div><br/>
                                 <div class="col-md-4">Mean size per request</div><div class="col-md-8">36B</div><br/>
         
                                 <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">2</div>
+                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">3</div>
                                 <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
         
                                 <div class="col-md-12">&nbsp;</div>
@@ -787,83 +374,7 @@
                                     <div class="col-md-8">
                                         <table class="table table-responsive table-condensed">
                                             <thead><tr><th>Name</th><th>Pass count</th><th>Fail count</th></tr></thead>
-                                            <tbody><tr><td>Response status code is 200</td><td>1</td><td>0</td></tr><tr><td>Response time is less than 2000ms</td><td>1</td><td>0</td></tr></tbody>
-                                        </table>
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel-group" id="collapse-request-b1e45bc2-985d-43fe-8bbd-96c15aed3769" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-b1e45bc2-985d-43fe-8bbd-96c15aed3769">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-b1e45bc2-985d-43fe-8bbd-96c15aed3769" aria-controls="collapseOne">Register_002</a></h4>
-                        </div>
-        
-                        <div id="requestData-b1e45bc2-985d-43fe-8bbd-96c15aed3769" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-b1e45bc2-985d-43fe-8bbd-96c15aed3769">
-                            <div class="panel-body">
-        
-                                    <div class="col-md-4">Method</div><div class="col-md-8">POST</div>
-                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="https://reqres.in/API/register" target="_blank">https://reqres.in/API/register</a></div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">207ms</div><br/>
-                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">28B</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">1</div>
-                                <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">400</div><br/>
-        
-                                    <div class="col-md-12">&nbsp;</div>
-                                    <div class="col-md-4">Tests</div>
-        
-                                    <div class="col-md-8">
-                                        <table class="table table-responsive table-condensed">
-                                            <thead><tr><th>Name</th><th>Pass count</th><th>Fail count</th></tr></thead>
-                                            <tbody><tr><td>Display error</td><td>1</td><td>0</td></tr></tbody>
-                                        </table>
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel-group" id="collapse-request-03df4f4a-3095-47d2-920b-5d0d2a0f2ef2" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-03df4f4a-3095-47d2-920b-5d0d2a0f2ef2">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-03df4f4a-3095-47d2-920b-5d0d2a0f2ef2" aria-controls="collapseOne">Register_003</a></h4>
-                        </div>
-        
-                        <div id="requestData-03df4f4a-3095-47d2-920b-5d0d2a0f2ef2" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-03df4f4a-3095-47d2-920b-5d0d2a0f2ef2">
-                            <div class="panel-body">
-        
-                                    <div class="col-md-4">Method</div><div class="col-md-8">POST</div>
-                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="https://reqres.in/api/register" target="_blank">https://reqres.in/api/register</a></div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">216ms</div><br/>
-                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">37B</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">1</div>
-                                <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">400</div><br/>
-        
-                                    <div class="col-md-12">&nbsp;</div>
-                                    <div class="col-md-4">Tests</div>
-        
-                                    <div class="col-md-8">
-                                        <table class="table table-responsive table-condensed">
-                                            <thead><tr><th>Name</th><th>Pass count</th><th>Fail count</th></tr></thead>
-                                            <tbody><tr><td>Display error</td><td>1</td><td>0</td></tr></tbody>
+                                            <tbody><tr><td>Verify that response is an object with id property</td><td>1</td><td>0</td></tr><tr><td>Verify that ID is not a negative integer</td><td>1</td><td>0</td></tr><tr><td>Verify that Token is not an empty string</td><td>1</td><td>0</td></tr></tbody>
                                         </table>
                                     </div>
                             </div>
@@ -889,70 +400,21 @@
                                 <div class="col-md-4">Mean size per request</div><div class="col-md-8">996B</div><br/>
         
                                 <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">0</div>
+                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">3</div>
                                 <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
         
                                 <div class="col-md-12">&nbsp;</div>
                                 <br/><div class="col-md-4">Status code</div><div class="col-md-8">200</div><br/>
         
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel-group" id="collapse-request-0a322b42-fb3f-4249-b602-b9d26867e8fa" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-0a322b42-fb3f-4249-b602-b9d26867e8fa">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-0a322b42-fb3f-4249-b602-b9d26867e8fa" aria-controls="collapseOne">Delay_002</a></h4>
-                        </div>
+                                    <div class="col-md-12">&nbsp;</div>
+                                    <div class="col-md-4">Tests</div>
         
-                        <div id="requestData-0a322b42-fb3f-4249-b602-b9d26867e8fa" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-0a322b42-fb3f-4249-b602-b9d26867e8fa">
-                            <div class="panel-body">
-        
-                                    <div class="col-md-4">Method</div><div class="col-md-8">GET</div>
-                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="https://reqres.in/api/users?delay&#x3D;seconds+minutes+hours&#x3D;zainabstime" target="_blank">https://reqres.in/api/users?delay&#x3D;seconds+minutes+hours&#x3D;zainabstime</a></div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">237ms</div><br/>
-                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">996B</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">0</div>
-                                <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">200</div><br/>
-        
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel-group" id="collapse-request-673929f1-25e1-4908-9e92-3a687fa48b88" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-673929f1-25e1-4908-9e92-3a687fa48b88">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-673929f1-25e1-4908-9e92-3a687fa48b88" aria-controls="collapseOne">Delay_003</a></h4>
-                        </div>
-        
-                        <div id="requestData-673929f1-25e1-4908-9e92-3a687fa48b88" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-673929f1-25e1-4908-9e92-3a687fa48b88">
-                            <div class="panel-body">
-        
-                                    <div class="col-md-4">Method</div><div class="col-md-8">GET</div>
-                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="https://reqres.in/api/users?delay&#x3D;+1.1234+0.98765" target="_blank">https://reqres.in/api/users?delay&#x3D;+1.1234+0.98765</a></div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">240ms</div><br/>
-                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">996B</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">0</div>
-                                <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">200</div><br/>
-        
+                                    <div class="col-md-8">
+                                        <table class="table table-responsive table-condensed">
+                                            <thead><tr><th>Name</th><th>Pass count</th><th>Fail count</th></tr></thead>
+                                            <tbody><tr><td>Verify status code is 200 OK</td><td>1</td><td>0</td></tr><tr><td>Verify Email in the &#x27;data&#x27; array is in a valid format</td><td>1</td><td>0</td></tr><tr><td>Verify object has the correct structure</td><td>1</td><td>0</td></tr></tbody>
+                                        </table>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -990,11 +452,11 @@
                                 <div class="col-md-12">&nbsp;</div>
         
                                 <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">247ms</div><br/>
+                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">217ms</div><br/>
                                 <div class="col-md-4">Mean size per request</div><div class="col-md-8">29B</div><br/>
         
                                 <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">2</div>
+                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">3</div>
                                 <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
         
                                 <div class="col-md-12">&nbsp;</div>
@@ -1006,83 +468,7 @@
                                     <div class="col-md-8">
                                         <table class="table table-responsive table-condensed">
                                             <thead><tr><th>Name</th><th>Pass count</th><th>Fail count</th></tr></thead>
-                                            <tbody><tr><td>Response status code is 200</td><td>1</td><td>0</td></tr><tr><td>Response is an object with a token property</td><td>1</td><td>0</td></tr></tbody>
-                                        </table>
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel-group" id="collapse-request-9131905d-9043-45bd-b387-d1ef544040ad" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-9131905d-9043-45bd-b387-d1ef544040ad">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-9131905d-9043-45bd-b387-d1ef544040ad" aria-controls="collapseOne">login_002</a></h4>
-                        </div>
-        
-                        <div id="requestData-9131905d-9043-45bd-b387-d1ef544040ad" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-9131905d-9043-45bd-b387-d1ef544040ad">
-                            <div class="panel-body">
-        
-                                    <div class="col-md-4">Method</div><div class="col-md-8">POST</div>
-                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="https://reqres.in/api/login" target="_blank">https://reqres.in/api/login</a></div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">217ms</div><br/>
-                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">37B</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">2</div>
-                                <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">400</div><br/>
-        
-                                    <div class="col-md-12">&nbsp;</div>
-                                    <div class="col-md-4">Tests</div>
-        
-                                    <div class="col-md-8">
-                                        <table class="table table-responsive table-condensed">
-                                            <thead><tr><th>Name</th><th>Pass count</th><th>Fail count</th></tr></thead>
-                                            <tbody><tr><td>Response status code is 400</td><td>1</td><td>0</td></tr><tr><td>Response is an object with error property</td><td>1</td><td>0</td></tr></tbody>
-                                        </table>
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel-group" id="collapse-request-49c78e28-e7a0-4dc0-bc7a-2ddede3c8512" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-49c78e28-e7a0-4dc0-bc7a-2ddede3c8512">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-49c78e28-e7a0-4dc0-bc7a-2ddede3c8512" aria-controls="collapseOne">login_003</a></h4>
-                        </div>
-        
-                        <div id="requestData-49c78e28-e7a0-4dc0-bc7a-2ddede3c8512" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-49c78e28-e7a0-4dc0-bc7a-2ddede3c8512">
-                            <div class="panel-body">
-        
-                                    <div class="col-md-4">Method</div><div class="col-md-8">POST</div>
-                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="https://reqres.in/api/login" target="_blank">https://reqres.in/api/login</a></div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">246ms</div><br/>
-                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">28B</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">2</div>
-                                <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
-        
-                                <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">400</div><br/>
-        
-                                    <div class="col-md-12">&nbsp;</div>
-                                    <div class="col-md-4">Tests</div>
-        
-                                    <div class="col-md-8">
-                                        <table class="table table-responsive table-condensed">
-                                            <thead><tr><th>Name</th><th>Pass count</th><th>Fail count</th></tr></thead>
-                                            <tbody><tr><td>Response status code is 400</td><td>1</td><td>0</td></tr><tr><td>Response is an object with error property</td><td>1</td><td>0</td></tr></tbody>
+                                            <tbody><tr><td>Response status code is 200</td><td>1</td><td>0</td></tr><tr><td>Verify that response is an object with a token property</td><td>1</td><td>0</td></tr><tr><td>Verify that Token is not an empty string</td><td>1</td><td>0</td></tr></tbody>
                                         </table>
                                     </div>
                             </div>
